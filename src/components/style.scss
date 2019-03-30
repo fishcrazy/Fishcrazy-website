@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+// Importing variables
+@import "./variables.scss";
+
+// Importing Bulma from node_modules
+@import "~bulma/bulma.sass";
+
+.card-link {
+	margin-top: 1rem;
+}
+.divider-bar {
+	background-color: lightgrey;
+	width: 50%;
+}
+
+.gradientBg {
+	display: flex;
+	background: linear-gradient(to right, $primary-color, $secondary-color);
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-section {
+	min-height: 450px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact-text-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.footer {
+	display: flex;
+	padding: 1.5rem 1.5rem;
+	line-height: 1.5rem;
+	a {
+		border-bottom: 1px solid;
+		color: black;
+	}
+	a:hover {
+		color: $secondary-color;
+	}
+}
+
+.floating-image {
+	-webkit-box-shadow: 3px 7px 16px 0px rgba(0, 0, 0, 0.37);
+	-moz-box-shadow: 3px 7px 16px 0px rgba(0, 0, 0, 0.37);
+	box-shadow: 3px 7px 16px 0px rgba(0, 0, 0, 0.37);
+}
+
+.floating-card {
+	-webkit-box-shadow: 3px 7px 16px 0px rgba(0, 0, 0, 0.37);
+	-moz-box-shadow: 3px 7px 16px 0px rgba(0, 0, 0, 0.37);
+	box-shadow: 3px 7px 16px 0px rgba(0, 0, 0, 0.37);
+}
+
+.guide-text-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.half-text {
+	padding: 0.75rem 2.5rem;
+}
+
+.home-guide-text {
+	max-width: 650px;
+	padding: 3rem;
+	color: #fff;
+	h3 {
+		font-weight: 700;
+		margin: 1rem 0;
+	}
+	p {
+		margin: 1.5rem 0;
+	}
+	.button {
+		margin: 1rem 0;
+	}
+}
+
+.button.two-by-two {
+	margin-top: 1.5rem;
+}
+
+.meet-chris {
+	max-height: 300px;
+}
+
+.navbar-brand {
+	&.is-active {
+		background-color: $primary-color;
+	}
+}
+
+.navbar-item {
+	img {
+		max-height: 7rem;
+	}
+}
+.rates-section {
+	background: #ecf0f1;
+}
+
+.rates-container {
+	margin: 1rem;
+	padding-bottom: 3rem;
+	h3 {
+		margin-top: 2rem;
+	}
+	p {
+		font-size: 1.5rem;
+	}
+	hr {
+		width: 50%;
+		margin: 1.5rem auto;
+		color: $primary-color;
+	}
+	.price {
+		font-weight: 700;
+	}
+	.button {
+		margin: 1.5rem 0;
+	}
+}
+
+.item-checklist {
+	margin: 1rem auto;
+	padding: 1rem;
+	font-weight: 700;
+}
+
+.info-title {
+	margin-bottom: 1rem;
+}
+
+.contact-info {
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	.card {
+		padding: 1rem;
+	}
+	span {
+		font-weight: 700;
+	}
+}
+.divider-tiny {
+	width: 50%;
+	margin: 2rem 0;
+}
+
+.meet-the-captain {
+	font-size: 1.1rem;
+	.container {
+		max-width: 960px;
+	}
+	.button {
+		margin-top: 1rem;
+	}
+	img {
+		margin: 1.5rem auto;
+		max-width: 870px;
+	}
+}
+
+.places-container {
+	ul {
+		font-size: 1.2rem;
+	}
+	li {
+		padding: 0.2rem;
+	}
+}
+
+.what-to-bring {
+	p {
+		margin-top: 1rem;
+		font-size: 1.1rem;
+	}
+}
+
+.what-to-expect {
+	p {
+		margin-top: 1rem;
+		font-size: 1.1rem;
+	}
+}
