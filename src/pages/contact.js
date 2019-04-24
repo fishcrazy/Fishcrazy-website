@@ -40,7 +40,14 @@ const Contact = () => (
 				</div>
 				<div className="columns is-vcentered">
 					<div className="column">
-						<form className="box">
+						<form
+							className="box"
+							name="contact"
+							method="post"
+							data-netlify="true"
+							data-netlify-honeypot="bot-field"
+						>
+							<input type="hidden" name="contact-fishcrazy" value="contact" />
 							<div className="field">
 								<label className="label">Name</label>
 								<div className="control has-icons-left">

@@ -59,7 +59,7 @@ class Navbar extends React.Component {
 									Gallery
 								</Link>
 								<span className="navbar-item">
-									<Link to="/contact" className="button is-primary is-inverted">
+									<Link to="/contact" className="button is-primary">
 										Contact
 									</Link>
 								</span>

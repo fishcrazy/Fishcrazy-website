@@ -94,6 +94,7 @@
 
 .meet-chris {
 	max-height: 300px;
+	max-width: 300px;
 }
 
 .navbar-brand {
@@ -169,8 +170,7 @@
 		margin-top: 1rem;
 	}
 	img {
-		margin: 1.5rem auto;
-		max-width: 870px;
+		margin: 0.5rem auto;
 	}
 }
 
@@ -195,4 +195,18 @@
 		margin-top: 1rem;
 		font-size: 1.1rem;
 	}
+}
+
+.iframe-container {
+	position: relative;
+	overflow: hidden;
+	padding-top: 80%;
+}
+.responsive-iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
 }

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import Navbar from "../components/navbar";
-import indexbg from "../images/bg-img/index.jpg";
+import indexbg from "../images/bg-img/main.jpg";
 import smallmouthBass1 from "../images/smallmouth-bass-1.jpg";
 import mac2 from "../images/mac-2.jpg";
 import meetTheCaptain from "../images/captain-chris.jpg";
@@ -48,10 +48,12 @@ const IndexPage = () => (
 						<p>
 							Captain Chris Johnson of Fishcrazy Guide Service is the go-to
 							guide if you are looking to experience the best bass fishing
-							Sturgeon Bay and Door County have to offer. Captain Chris does not
-							run walleye, salmon, or trout charters just to make ends meet or
-							fill out a schedule; we only guide for smallmouth bass, and no one
-							does it better in and around Door County!
+							Sturgeon Bay and Door County have to offer. For the past 15 years
+							Captain Chris is and has been Door County’s only guide focused
+							specifically on Smallmouth Bass. We do not run walleye, salmon, or
+							trout charters just to make ends meet or fill out a schedule; we
+							only guide for smallmouth bass, and no one does it better in and
+							around Door County!
 						</p>
 						<Link
 							to="/rates-and-info"
@@ -78,7 +80,7 @@ const IndexPage = () => (
 					</div>
 					<div className="column half-text">
 						<h2 className="is-size-3">A Charter Experience Like No Other</h2>
-						<hr class="divider-bar" />
+						<hr className="divider-bar" />
 						<p>
 							During your day on the water, Captain Chris will provide a
 							complete outdoor experience that you’ll remember fondly for many
@@ -115,7 +117,7 @@ const IndexPage = () => (
 						<div className="card floating-card">
 							<div className="card-image">
 								<figure className="image is-4by3">
-									<img src={meetTheCaptain} />
+									<img src={meetTheCaptain} alt="Meet the Captain" />
 								</figure>
 							</div>
 							<div className="card-content">
@@ -138,7 +140,7 @@ const IndexPage = () => (
 						<div className="card floating-card">
 							<div className="card-image">
 								<figure className="image is-4by3">
-									<img src={fourSmallies} />
+									<img src={fourSmallies} alt="Fishing Gallery" />
 								</figure>
 							</div>
 							<div className="card-content">
@@ -162,7 +164,7 @@ const IndexPage = () => (
 						<div className="card floating-card">
 							<div className="card-image">
 								<figure className="image is-4by3">
-									<img src={galleryImg} />
+									<img src={galleryImg} alt="Contact Us" />
 								</figure>
 							</div>
 							<div className="card-content">
@@ -203,7 +205,7 @@ const IndexPage = () => (
 								Learn how a guide can help you become a better angler:
 							</p>
 							<Link
-								to="/contact"
+								to="/why-hire-a-guide"
 								className="button is-large is-primary two-by-two"
 							>
 								Read More
