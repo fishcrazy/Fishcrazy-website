@@ -47,62 +47,49 @@ const Contact = () => (
 							data-netlify="true"
 							data-netlify-honeypot="bot-field"
 						>
-							<input type="hidden" name="contact-fishcrazy" value="contact" />
+							<input type="hidden" name="bot-field" />
+							<input type="hidden" name="form-name" value="contact" />
 							<div className="field">
-								<label className="label">Name</label>
-								<div className="control has-icons-left">
+								<label className="label" htmlFor="name">
+									Name
+								</label>
+								<input className="input" type="text" name="name" id="name" />
+							</div>
+							<div className="field half">
+								<label className="label" htmlFor="email">
+									Email
+								</label>
+								<input className="input" type="text" name="email" id="email" />
+							</div>
+							<div className="field">
+								<label className="label" htmlFor="message">
+									Message
+								</label>
+								<textarea
+									className="textarea"
+									name="message"
+									id="message"
+									rows="6"
+								/>
+							</div>
+							<ul className="actions">
+								<li>
 									<input
-										type="text"
-										className="input"
-										placeholder="Enter Full Name"
-										required
+										type="submit"
+										value="Send Message"
+										className="special button is-primary"
 									/>
-								</div>
-							</div>
-							<div className="field">
-								<label className="label">Email</label>
-								<div className="control has-icons-left">
-									<input
-										type="email"
-										className="input"
-										placeholder="e.g. address@email.com"
-									/>
-								</div>
-							</div>
-							<div className="field">
-								<label className="label">Subject</label>
-								<div className="control has-icons-left">
-									<input
-										type="text"
-										className="input"
-										placeholder="Message Subject"
-										required
-									/>
-								</div>
-							</div>
-							<div className="field">
-								<label className="label">Message</label>
-								<div className="control has-icons-left">
-									<input
-										type="textarea"
-										className="textarea"
-										placeholder="Enter message"
-										required
-									/>
-								</div>
-							</div>
-							<div className="field">
-								<button className="button is-primary">Submit</button>
-							</div>
+								</li>
+							</ul>
 						</form>
 					</div>
 					<div className="column contact-info">
 						<div class="card floating-image">
-							<header class="card-header">
-								<p class="card-header-title">Contact Info</p>
+							<header className="card-header">
+								<p className="card-header-title">Contact Info</p>
 							</header>
-							<div class="card-content">
-								<div class="content">
+							<div className="card-content">
+								<div className="content">
 									<p>Chris Johnson</p>
 									<p>920-475-1474</p>
 									<p>fishcrazy@fishcrazygs.com</p>

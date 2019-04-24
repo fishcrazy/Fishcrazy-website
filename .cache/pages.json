@@ -1,0 +1,47 @@
+[
+    {
+        "componentChunkName": "component---src-pages-index-js",
+        "jsonName": "index",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "jsonName": "404-html-516",
+        "path": "/404.html"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "jsonName": "404-22d",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-pages-contact-js",
+        "jsonName": "contact-26a",
+        "path": "/contact/"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-gallery-js",
+        "jsonName": "gallery-93e",
+        "path": "/gallery/"
+    },
+    {
+        "componentChunkName": "component---src-pages-meet-the-captain-js",
+        "jsonName": "meet-the-captain-877",
+        "path": "/meet-the-captain/"
+    },
+    {
+        "componentChunkName": "component---src-pages-rates-and-info-js",
+        "jsonName": "rates-and-info-f92",
+        "path": "/rates-and-info/"
+    },
+    {
+        "componentChunkName": "component---src-pages-why-hire-a-guide-js",
+        "jsonName": "why-hire-a-guide-d4e",
+        "path": "/why-hire-a-guide/"
+    }
+]
